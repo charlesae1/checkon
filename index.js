@@ -51,6 +51,7 @@ client.once('ready', () => {
     console.error('Canal não encontrado. Verifique o ID.');
     return;
   }
+  //teste
 
   verificarStatus(channel);
   setInterval(() => verificarStatus(channel), 60 * 1000);
